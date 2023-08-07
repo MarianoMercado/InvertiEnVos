@@ -10,6 +10,9 @@ export const NavbarContainerStyled = styled.header`
   align-items: center;
   background: linear-gradient(to top, var(--bg-black), var(--blue));
   padding: 1rem 4rem;
+  @media (max-width: 400px) {
+    padding: 1rem;
+  }
 `;
 
 export const LinksContainertSyled = styled.div`
@@ -19,6 +22,9 @@ export const LinksContainertSyled = styled.div`
   justify-content: center;
   align-items: center;
   gap: 40px;
+  @media (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const LinkcontainerStyled = styled.div`
@@ -30,12 +36,19 @@ export const LinkcontainerStyled = styled.div`
 `;
 
 //herencia
-export const UserContainerStyled = styled(LinkcontainerStyled)``;
+// export const UserContainerStyled = styled(LinkcontainerStyled)``;
 
 export const HomeContainerStyled = styled(LinkcontainerStyled)`
-  @media (max-wid: 768px) {
+  /* @media (max-wid: 768px) {
     display: none;
+  } */
+`;
+export const MenuContainerStyled = styled.div`
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  @media (max-width: 768px) {
+    display: flex;
   }
 `;
-
 //minuto 31:28 3.4 Livecoding: Landing Page | React JS

@@ -6,25 +6,35 @@ export const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   width: 100%;
-  background: var(--back);
+  background: var(--black);
+
   color: var(--white);
-  padding: 10px 20px;
+  padding: 10px 0;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    a {
+      padding: 0px;
+    }
+  }
 `;
 export const LinksContainerStyled = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  padding: 10px 0;
+
   @media (max-width: 768px) {
     flex-direction: column;
     a {
-      padding: 0.5rem 0;
+      padding: 0px;
     }
   }
 `;
 
 export const FooterInfoDev = styled.div`
+  border-top: 1px solid var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -42,5 +52,4 @@ export const FooterInfoDevName = styled.div`
 export const FooterInfoDevDes = styled.div`
   color: var(--white-ligth);
   font-size: 0.9rem;
-  background: var(--bg-black);
 `;

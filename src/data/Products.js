@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     title: "YPF",
-    // // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656648456/coding/NucbaZappi/Productos/muzza-mentolada_fmh9at.png",
+    img: "src/img/ACCIONES.png",
     desc: "Ypf",
     price: 3000,
     category: "Acciones",
@@ -10,7 +10,7 @@ export const products = [
   {
     id: 3,
     title: "CVH",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656648456/coding/NucbaZappi/Productos/charly_c3l5uz.png",
+    img: "src/img/ACCIONES.png",
     desc: "Cablevisión",
     price: 380,
     category: "Acciones",
@@ -18,7 +18,7 @@ export const products = [
   {
     id: 4,
     title: "PAM",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656648456/coding/NucbaZappi/Productos/maradona_nwup0z.png",
+    img: "src/img/ACCIONES.png",
     desc: "Pampa Energía",
     price: 450,
     category: "Acciones",
@@ -26,7 +26,7 @@ export const products = [
   {
     id: 6,
     title: "MELI",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656648456/coding/NucbaZappi/Productos/hasbulla_edbxfh.png",
+    img: "src/img/ACCIONES.png",
     desc: "MercadoLibre",
     price: 990,
     category: "Acciones",
@@ -34,7 +34,7 @@ export const products = [
   {
     id: 7,
     title: "VIST",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656648455/coding/NucbaZappi/Productos/messi_m2l6zt.png",
+    img: "src/img/ACCIONES.png",
     desc: "Vista Energy",
     price: 10,
     category: "Acciones",
@@ -42,7 +42,7 @@ export const products = [
   {
     id: 10,
     title: "META",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653724/coding/NucbaZappi/Productos/Ladoble5_Papas_ywcdxx.png",
+    img: "src/img/cedears.png",
     desc: "Facebook",
     price: 750,
     category: "Cedears",
@@ -50,7 +50,7 @@ export const products = [
   {
     id: 11,
     title: "VIST",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653724/coding/NucbaZappi/Productos/LaKrupoviesa_j7da47.png",
+    img: "src/img/cedears.png",
     desc: "Vista Energy",
     price: 550,
     category: "Cedears",
@@ -58,7 +58,7 @@ export const products = [
   {
     id: 13,
     title: "KO",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653723/coding/NucbaZappi/Productos/Classic_p4hqus.png",
+    img: "src/img/cedears.png",
     desc: "The Coca Cola Company",
     price: 150,
     category: "Cedears",
@@ -66,7 +66,7 @@ export const products = [
   {
     id: 14,
     title: "TSLA",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653723/coding/NucbaZappi/Productos/Copiadas_mo6tqu.png",
+    img: "src/img/cedears.png",
     desc: "Tesla",
     price: 250,
     category: "Cedears",
@@ -74,7 +74,7 @@ export const products = [
   {
     id: 17,
     title: "AAPLD",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653723/coding/NucbaZappi/Productos/ClasicaAlaPiedra_jjd5nz.png",
+    img: "src/img/cedears.png",
     desc: "Apple",
     price: 425,
     category: "Cedears",
@@ -82,7 +82,7 @@ export const products = [
   {
     id: 18,
     title: "AMZN",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653722/coding/NucbaZappi/Productos/Zapatilla_f4igih.png",
+    img: "src/img/cedears.png",
     desc: "Amazon",
     price: 440,
     category: "Cedears",
@@ -90,7 +90,7 @@ export const products = [
   {
     id: 21,
     title: "Rejunte",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653725/coding/NucbaZappi/Productos/Rejunte_bsyiqo.png",
+    img: "src/img/cedears.png",
     desc: "Con todo lo que sobre",
     price: 500,
     category: "Cedears",
@@ -98,7 +98,7 @@ export const products = [
   {
     id: 22,
     title: "AXP",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653723/coding/NucbaZappi/Productos/ElInterdeMil%C3%A1n_voak5h.png",
+    img: "src/img/cedears.png",
     desc: "American Epress",
     price: 770,
     category: "Cedears",
@@ -106,7 +106,7 @@ export const products = [
   {
     id: 25,
     title: "BTC",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653723/coding/NucbaZappi/Productos/DiMaria_wfztyj.png",
+    img: "src/img/CRIPTOS.png",
     desc: "Bitcoins",
     price: 1100,
     category: "Criptomonedas",
@@ -114,7 +114,7 @@ export const products = [
   {
     id: 27,
     title: "ETH",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653722/coding/NucbaZappi/Productos/TaBienMexicano_qdqlew.png",
+    img: "src/img/CRIPTOS.png",
     desc: "Ethereum",
     price: 1250,
     category: "Criptomonedas",
@@ -122,7 +122,7 @@ export const products = [
   {
     id: 29,
     title: "USDT",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653723/coding/NucbaZappi/Productos/AfterReact_iez607.png",
+    img: "src/img/CRIPTOS.png",
     desc: "Thether",
     price: 800,
     category: "Criptomonedas",
@@ -130,7 +130,7 @@ export const products = [
   {
     id: 32,
     title: "BNB",
-    // img: "https://res.cloudinary.com/dcatzxqqf/image/upload/v1656653724/coding/NucbaZappi/Productos/Nucbastar_sio3g0.png",
+    img: "src/img/CRIPTOS.png",
     desc: "Binance Coin",
     price: 700,
     category: "Criptomonedas",

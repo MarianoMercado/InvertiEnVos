@@ -5,7 +5,7 @@ export const ProductosWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 30px 0;
   gap: 20px;
   width: 100%;
 `;
@@ -24,10 +24,12 @@ export const ProductosCard = styled.div`
   width: 300px;
   border-radius: 15px;
   padding: 1rem;
-  background: var(--bg-black);
+  background: linear-gradient(to top, var(--bg-black), var(--bg-black));
   img {
-    width: 100%;
-    margin-bottom: 1rem;
+    width: 80%;
+    height: 100px;
+    border-radius: 15px;
+    /* margin-bottom: 1rem; */
   }
   h2 {
     font-weight: 600;
@@ -51,7 +53,7 @@ export const ContainerPrice = styled.div`
 export const CardPrice = styled.span`
   font-weight: 800;
   font-size: 1.75rem;
-  background: linear-gradient(83deg, #ffa100, #fb103d);
+  background: linear-gradient(10deg, var(--white), var(--msj-succes));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -10,6 +10,7 @@ export const CategoriasWrapper = styled.section`
   gap: 10px;
   @media (max-width: 768px) {
     padding-top: 30px;
+    margin: 0px;
   }
 `;
 
