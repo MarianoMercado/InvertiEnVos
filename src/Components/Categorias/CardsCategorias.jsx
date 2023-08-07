@@ -6,7 +6,7 @@ const CardsCategorias = () => {
     <>
       <CardCategoriaContainer>
         <CardCategoria whileHover={{ scale: 0.9 }}>
-          <img src="src/img/DolarMep.jpeg" alt="" />
+          <img src="./DolarMep.jpeg" alt="" />
           <h4>Dolar MEP</h4>
           <p>
             Es una de las alternativas más convenientes para dolarizár tus
@@ -14,7 +14,7 @@ const CardsCategorias = () => {
           </p>
         </CardCategoria>
         <CardCategoria whileHover={{ scale: 0.9 }}>
-          <img src="src/img/BolsaDeValores.jpg" alt="" />
+          <img src="./BolsaDeValores.jpg" alt="" />
           <h4>Bolsa de valores</h4>
           <p>
             Comenzarás a operar con los distintos activos financieos que existen
@@ -22,7 +22,7 @@ const CardsCategorias = () => {
           </p>
         </CardCategoria>
         <CardCategoria whileHover={{ scale: 0.9 }}>
-          <img src="src/img/Criptomonedas.jpg" alt="" />
+          <img src="./Criptomonedas.jpg" alt="" />
           <h4>Criptomonedas</h4>
           <p>
             Las criptomonedas tienen un potencial de crecimiento y valorización

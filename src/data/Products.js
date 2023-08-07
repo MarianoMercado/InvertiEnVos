@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     title: "YPF",
-    img: "src/img/ACCIONES.png",
+    img: "./ACCIONES.png",
     desc: "Ypf",
     price: 3000,
     category: "Acciones",
@@ -10,7 +10,7 @@ export const products = [
   {
     id: 3,
     title: "CVH",
-    img: "src/img/ACCIONES.png",
+    img: "./ACCIONES.png",
     desc: "Cablevisión",
     price: 380,
     category: "Acciones",
@@ -18,7 +18,7 @@ export const products = [
   {
     id: 4,
     title: "PAM",
-    img: "src/img/ACCIONES.png",
+    img: "./ACCIONES.png",
     desc: "Pampa Energía",
     price: 450,
     category: "Acciones",
@@ -26,7 +26,7 @@ export const products = [
   {
     id: 6,
     title: "MELI",
-    img: "src/img/ACCIONES.png",
+    img: "./ACCIONES.png",
     desc: "MercadoLibre",
     price: 990,
     category: "Acciones",
@@ -34,7 +34,7 @@ export const products = [
   {
     id: 7,
     title: "VIST",
-    img: "src/img/ACCIONES.png",
+    img: "./ACCIONES.png",
     desc: "Vista Energy",
     price: 10,
     category: "Acciones",
@@ -42,7 +42,7 @@ export const products = [
   {
     id: 10,
     title: "META",
-    img: "src/img/cedears.png",
+    img: "./cedears.png",
     desc: "Facebook",
     price: 750,
     category: "Cedears",
@@ -50,7 +50,7 @@ export const products = [
   {
     id: 11,
     title: "VIST",
-    img: "src/img/cedears.png",
+    img: "./cedears.png",
     desc: "Vista Energy",
     price: 550,
     category: "Cedears",
@@ -58,7 +58,7 @@ export const products = [
   {
     id: 13,
     title: "KO",
-    img: "src/img/cedears.png",
+    img: "./cedears.png",
     desc: "The Coca Cola Company",
     price: 150,
     category: "Cedears",
@@ -66,7 +66,7 @@ export const products = [
   {
     id: 14,
     title: "TSLA",
-    img: "src/img/cedears.png",
+    img: "./cedears.png",
     desc: "Tesla",
     price: 250,
     category: "Cedears",
@@ -74,7 +74,7 @@ export const products = [
   {
     id: 17,
     title: "AAPLD",
-    img: "src/img/cedears.png",
+    img: "./cedears.png",
     desc: "Apple",
     price: 425,
     category: "Cedears",
@@ -82,7 +82,7 @@ export const products = [
   {
     id: 18,
     title: "AMZN",
-    img: "src/img/cedears.png",
+    img: "./cedears.png",
     desc: "Amazon",
     price: 440,
     category: "Cedears",
@@ -90,7 +90,7 @@ export const products = [
   {
     id: 21,
     title: "Rejunte",
-    img: "src/img/cedears.png",
+    img: "./cedears.png",
     desc: "Con todo lo que sobre",
     price: 500,
     category: "Cedears",
@@ -98,7 +98,7 @@ export const products = [
   {
     id: 22,
     title: "AXP",
-    img: "src/img/cedears.png",
+    img: "./cedears.png",
     desc: "American Epress",
     price: 770,
     category: "Cedears",
@@ -106,7 +106,7 @@ export const products = [
   {
     id: 25,
     title: "BTC",
-    img: "src/img/CRIPTOS.png",
+    img: "./CRIPTOS.png",
     desc: "Bitcoins",
     price: 1100,
     category: "Criptomonedas",
@@ -114,7 +114,7 @@ export const products = [
   {
     id: 27,
     title: "ETH",
-    img: "src/img/CRIPTOS.png",
+    img: "./CRIPTOS.png",
     desc: "Ethereum",
     price: 1250,
     category: "Criptomonedas",
@@ -122,7 +122,7 @@ export const products = [
   {
     id: 29,
     title: "USDT",
-    img: "src/img/CRIPTOS.png",
+    img: "./CRIPTOS.png",
     desc: "Thether",
     price: 800,
     category: "Criptomonedas",
@@ -130,7 +130,7 @@ export const products = [
   {
     id: 32,
     title: "BNB",
-    img: "src/img/CRIPTOS.png",
+    img: "./CRIPTOS.png",
     desc: "Binance Coin",
     price: 700,
     category: "Criptomonedas",

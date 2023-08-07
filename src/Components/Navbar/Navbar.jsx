@@ -21,7 +21,7 @@ const Navbar = () => {
     <NavbarContainerStyled>
       <div>
         <a href="/#">
-          <img src="./src/img/Logo.png" alt="log" />
+          <img src="./Logo.png" alt="log" />
         </a>
       </div>
       <LinksContainertSyled>
@@ -40,7 +40,7 @@ const Navbar = () => {
               <LinkcontainerStyled>
                 <FaUserAlt />
               </LinkcontainerStyled>
-              Crear centa
+              Crear cuenta
             </a>
           </motion.div>
         </HomeContainerStyled>
