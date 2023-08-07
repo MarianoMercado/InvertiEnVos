@@ -40,7 +40,7 @@ const Navbar = () => {
               <LinkcontainerStyled>
                 <FaUserAlt />
               </LinkcontainerStyled>
-              Crear centa
+              Crear cuenta
             </a>
           </motion.div>
         </HomeContainerStyled>
